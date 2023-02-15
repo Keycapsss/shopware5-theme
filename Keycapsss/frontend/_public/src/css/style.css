@@ -32,3 +32,12 @@ table a {
   -moz-hyphens: auto;
   hyphens: auto;
 }
+
+.product--box .product--badges{
+  left: 1.25rem;
+}
+
+.product--box .product--badges .product--badge{
+  padding: 0.5rem;
+  border-radius: 4px;
+}
