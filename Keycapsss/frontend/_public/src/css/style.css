@@ -53,25 +53,27 @@ table a {
   height: 100%;
   width: 100%;
   left: 0;
-  transition: left 0.5s;
+  opacity: 1;
+  transition: opacity 0.5s;
 }
 
 .product--box .product--image .image--element .product--image-second {
   position: absolute;
   height: 100%;
   width: 100%;
-  right: 110%;
-  transition: right 0.5s;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
 }
 
 .product--box .product--image .image--element:hover .product--image-first {
-  left: -110%;
-  transition: left 0.5s;
+  opacity: 0;
+  transition: opacity 0.5s;
 }
 
 .product--box .product--image .image--element:hover .product--image-second {
-  right: 0;
-  transition: right 0.5s;
+  opacity: 1
+  transition: opacity 0.5s;
 }
 
 @media screen and (min-width: 48em) {
